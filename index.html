@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Cabin:ital,wght@0,400..700;1,400..700&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <title>SUPERHEROES</title>
+</head>
+<body>
+    <header>
+      <img src="assets/img/favicon.ico" alt="">
+      <h4>SuperHéroe</h4>
+    </header>
+    <main>
+      <section id="search-section">
+          <img src="assets/img/sh1.jpg" id="imginicio" alt="img-inicio">
+        <h2>Encuentra Tú SuperHéroe</h2>
+        <form id="busqueda-form">
+          <label for="numero-hero">Ingresa el número del SuperHeroe a buscar:</label>
+          <input type="text" id="numero-hero" name="numero-hero">
+          <button type="submit" id="boton">Buscar</button>
+        </form>
+      </section>
+      <section id="info-hero-section" style="display: none;">
+        <h2>Información del SuperHéroe</h2>
+        <div>
+          <div id="info-hero">
+              <div id="superheroe"></div>
+          </div>
+          <div id="chart-hero"></div>
+      </div>
+      </section>
+  
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

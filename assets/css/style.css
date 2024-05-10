@@ -1,0 +1,64 @@
+body *body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lobster", sans-serif;
+
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+  }
+
+  header h4 {
+    display: inline-block; 
+    
+  }
+
+  header img {
+    width: 3rem; 
+    vertical-align: middle;
+    margin-left: 10px; 
+    
+  }
+
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  #busqueda {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  #form-busqueda {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #form-busqueda label {
+    margin-right: 10px;
+    text-align: center;
+  }
+
+  #imginicio{
+    width: 500px;
+    height: 300px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+#superheroe {
+    height: 350px;
+    width: 250px;
+    text-align: center;
+    border-radius: 15px;
+}
